@@ -1,0 +1,11 @@
+fr\gtm\formation\proxibanque\servlet\CreationClient.class
+fr\gtm\formation\proxibanque\servlet\EffectuerVirement.class
+fr\gtm\formation\proxibanque\servlet\ListeClients.class
+fr\gtm\formation\proxibanque\filtre\FiltreLogin.class
+fr\gtm\formation\proxibanque\servlet\SupprimerClient.class
+fr\gtm\formation\proxibanque\servlet\ConnectionConseiller.class
+fr\gtm\formation\proxibanque\servlet\DeconnexionConseiller.class
+fr\gtm\formation\proxibanque\servlet\ListeComptes.class
+fr\gtm\formation\proxibanque\servlet\ClientAction.class
+fr\gtm\formation\proxibanque\servlet\ClientSelect.class
+fr\gtm\formation\proxibanque\servlet\ModifClient.class
