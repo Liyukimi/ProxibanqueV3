@@ -36,8 +36,8 @@ Pour lancer l'application, veuillez suivre indications suivantes :
 	2. Connectez vous au system en saisissant la commande suivante : 'connect system/' suivi de votre mot de passe
 	   (configuré lors de l'installation d'OracleXE)
 	3. Creez un nouvel utilsiateur en tapant les commandes suivantes
-		 i. create user proxibanque identified by proxibanque;
-		 ii. grant connect, resource to proxibanque;
+		 create user proxibanque identified by proxibanque;
+		 grant connect, resource to proxibanque;	 
 
 #### B. Lancer le serveur Apache Tomcat
 	1. Vérifiez que le programme n'utilise pas le port 8080 (utilisé par défaut par Oracle et Tomcat)
@@ -67,5 +67,11 @@ Pour lancer l'application, veuillez suivre indications suivantes :
 		 iii. Conseiller3 / password3
 
 	L'ensemble des données de connexion se trouve dans la table 'Conseiller' de la base de données créée à l'étape A)
+
+#### D. Importer le projet Maven
+	1. Rendez vous sur le repository Github à l'adresse suivante : https://github.com/Liyukimi/ProxibanqueV3
+	2. Choisissez "Clone or Download" et téléchargez l'archive zip
+	3. Décompressez l'archive et importez le projet via votre IDE habituel (import -> existing Maven project dans la plupart)
+	4. Lancez un invite de commande et faites un 'mvn install clean package'
 
 Pour obtenir de l'aide, nous vous invitons à contacter notre support technique : google.com ;)
