@@ -73,7 +73,8 @@ Pour lancer l'application, veuillez suivre indications suivantes :
 #### D. Importer le projet Maven
 	1. Rendez vous sur le repository Github à l'adresse suivante : https://github.com/Liyukimi/ProxibanqueV3
 	2. Choisissez "Clone or Download" et téléchargez l'archive zip
-	3. Décompressez l'archive et importez le projet via votre IDE habituel (import -> existing Maven project dans la plupart)
+	3. Décompressez l'archive et importez le projet via votre IDE habituel 
+	   (import -> existing Maven project dans la plupart)
 	4. Lancez un invite de commande et faites un 'mvn install clean package'
 
 Pour obtenir de l'aide, nous vous invitons à contacter notre support technique : google.com ;)
