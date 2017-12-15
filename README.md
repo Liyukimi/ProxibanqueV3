@@ -24,7 +24,7 @@ les dysfocntionnements.
 ## Documentation :
 La documentation est disponnible dans le dossier du projet
 
-	1. Veuillez accéder au dossier 'doc/'
+	1. Veuillez accéder au dossier 'javadoc/'
 	2. Double cliquez sur 'index.html'.
 
 ## Execution de l'application :
@@ -43,7 +43,8 @@ Pour lancer l'application, veuillez suivre indications suivantes :
 	1. Vérifiez que le programme n'utilise pas le port 8080 (utilisé par défaut par Oracle et Tomcat)
 		i. Dans le dossier d'intallation du programme Apache Tomcat 8.5.23,
 		   -> accédez au dossier \conf
-		ii. Ouvrez le fichier 'server.xml' avec un éditeur de texte (type bloc-note sous Windows, text-edit sous OS X)
+		ii. Ouvrez le fichier 'server.xml' avec un éditeur de texte 
+		    (type bloc-note sous Windows, text-edit sous OS X)
 		iii. Vérifiez que le port 8080 n'apparait pas.
 		     S'il apparait remplacez toutes les occurences par un autre port
 		     (nous recommandons le port 8081)
@@ -61,10 +62,11 @@ Pour lancer l'application, veuillez suivre indications suivantes :
 #### C. Accéder à la page d'acceuil de l'application ProxibanqueV3
 	1. Lancez votre navigateur et accédez à l'url : http://localhost:8081/ProxibanqueV3/
 	   Veillez à remplacer 8081 par le port indiqué à l'étape B.1.iii précédente
-	2. Pour vous identifier saisissez un login/mot de passe valides pour un conseiller dont la liste est la suivante (attention le login est sensible à la casse)
-	   i. Conseiller1 / password1
-		 ii. Conseiller2 / password2
-		 iii. Conseiller3 / password3
+	2. Pour vous identifier saisissez un login/mot de passe valides pour un conseiller dont la liste est la suivante 
+	   (attention le login est sensible à la casse)
+	   	i. Conseiller1 / password1
+		ii. Conseiller2 / password2
+		iii. Conseiller3 / password3
 
 	L'ensemble des données de connexion se trouve dans la table 'Conseiller' de la base de données créée à l'étape A)
 
